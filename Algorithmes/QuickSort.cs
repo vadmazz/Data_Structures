@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Data_and_Algoritmes.Algorithm
+namespace Data_and_Algoritmes.Algorithmes
 {
     /// <summary>
     /// Быстрая сортировка.
