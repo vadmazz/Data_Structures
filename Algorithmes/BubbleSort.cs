@@ -16,9 +16,9 @@ namespace Data_and_Algoritmes.Algorithmes
         public void Sort<T>(T[] m)
             where T : IComparable<T>
         {
-            for (int i = 0; i < m.Length; i++)
+            for (var i = 0; i < m.Length; i++)
             {
-                for (int j = i + 1; j < m.Length; j++)
+                for (var j = i + 1; j < m.Length; j++)
                 {
                     if (m[j].CompareTo(m[i]) < 0)
                     {

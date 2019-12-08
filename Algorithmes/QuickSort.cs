@@ -23,7 +23,7 @@ namespace Data_and_Algoritmes.Algorithmes
             where T : IComparable<T>
         {
             var i = a;
-            for (int j = a; j <= b; j++)
+            for (var j = a; j <= b; j++)
             {
                 if (m[j].CompareTo(m[b]) <= 0)// Сравниваем каждый элемент подмножества, начиная с нулевого с последним
                 {
